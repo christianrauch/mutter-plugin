@@ -449,6 +449,8 @@ start (MetaPlugin *plugin)
     init_keymap (self);
 
   clutter_actor_show (meta_get_stage_for_display (display));
+
+  meta_show_dialog ("--info", "Welcome to my custom plugin!", NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL);
 }
 
 static void
