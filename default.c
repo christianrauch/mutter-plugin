@@ -19,8 +19,6 @@
  * along with this program; if not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "config.h"
-
 #include "meta/display.h"
 
 #include <glib/gi18n-lib.h>
